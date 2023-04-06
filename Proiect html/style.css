@@ -1,0 +1,349 @@
+.hero {
+    display:flex;
+    flex-direction:column;
+    justify-items:center;
+    align-items:center;
+    width:100%;
+    height:100%;
+    background-size: cover;
+    margin-top: -400px;
+    margin-bottom: 300px;
+    color: green;
+  }
+  .dreapta-section{
+    width: 20%;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .stanga-section{
+    width: 80%;
+    padding: 20px;
+    margin-left: -300px;
+    margin-right: -200px;
+    background-color: chocolate;
+    color: white;
+    justify-content: center;
+  }
+  footer {
+    background-color: darkgreen;
+    justify-content: center;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  html{
+    font-family: 'Arial', sans-serif;
+  }
+.buton-modern {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .buton-modern {
+    background-color: #5F9FDF;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .buton-modern:hover {
+    background-color: #3F7FCF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .buton-modern:active {
+    background-color: #2F6FBF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+  }
+  
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    padding: 10px 0;
+  }
+  
+  ul li a:hover {
+    background-color: #f2f2f2;
+  }
+
+.poza_hero{
+    max-width: 800px;
+    z-index: 1;
+}
+.poza_logo {
+    display: inline-block;
+      width: 50px;
+      height: 50px;
+      background-color: #fff;
+      margin-right: 10px;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .left-section {
+    width: 40%;
+    padding: 20px;
+    margin-left: -200px;
+    margin-right: 150px;
+  }
+  
+  .right-section {
+    width: 60%;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: -200px;
+    padding: 20px;
+  }
+
+  h1 {
+    display: inline-block;
+    font-weight: bold;
+  }
+  .nav {
+    display: inline-block;
+    vertical-align: middle;
+    display: flex;
+    background-color: darkgreen;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  /* Stilizare meniu dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f2f2f2;
+    min-width: 160px;
+    padding: 10px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    color: #333;
+    padding: 5px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ccc;
+  }
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+body{
+    margin:0;
+}
+
+
+  
+  .poza_logo {
+    margin-right: 30px; 
+  }
+  
+  .desaga{
+    margin-right: 50px;
+    font-size: 24px;
+  }
+
+  .dropdown{
+    margin-top: 25px;
+  }
+  .custom-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.5s;
+    transition: width 1s, height 2s, background-color 3s;
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.1) rotate(360deg);
+    
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+  }
+  .text-decorat:before {
+    content: "!! ";
+    color: red;
+  }
+  
+  .text-decorat:after {
+    content: " !!";
+    color: blue;
+  }
+  .containere {
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  }
+  
+.element {
+    width: 80%;
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .despre-noi {
+    margin-bottom: 40px;
+  }
+  .angajati {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .angajat {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .angajat img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  /* Responsive pentru ecrane mici (telefoane mobile) */
+@media (max-width: 480px) {
+    .dreapta-section {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .stanga-section {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .left-section {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .right-section {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .containere {
+      grid-template-columns: 1fr;
+    }
+    
+    .angajati {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Responsive pentru ecrane medii (tablete) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .dreapta-section {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .stanga-section {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .left-section {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .right-section {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .containere {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .angajati {
+      grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+  }
+  
+  
+  
