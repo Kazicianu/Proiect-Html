@@ -16,7 +16,7 @@
                 <a href="proiectsite.html">
                     <img class="poza_logo" src="C:\Users\andre\Desktop\Facultate\TehniciWeb\poza_logo_proiect.jpg" alt="Logo">
                 </a>
-                <h1 class="desaga">Desaga cu Aventuri</h1>
+                <h1 id="titluPrincipal" class="desaga">Desaga cu Aventuri</h1>
                 <div class="dropdown">
                   <a href="#">Aventuri</a>
                   <div class="dropdown-content">
@@ -36,7 +36,7 @@
         </header>
 
         <main>
-            <img class="poza_hero" src="C:\Users\andre\Desktop\Facultate\TehniciWeb\2-3.jpeg" alt="Poza din link_poza_hero">
+            <img class="poza_hero" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/50/57/2d/caption.jpg?w=2400&h=1400&s=1&cx=1728&cy=1152&chk=v1_c3b95e04b02f1c246e25" alt="Poza din link_poza_hero">
            <div class="hero">
             
             <h2>O viata ca in filme!</h2>
@@ -48,12 +48,30 @@
           
             <h2>Căutare destinație</h2>
             <form>
+              <label for="nume">Nume:</label>
+              <input type="text" id="nume" name="nume">
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+          
               <label for="destinatie">Destinație:</label>
               <input type="text" id="destinatie" name="destinatie">
+          
+              <label for="numar_persoane">Număr de persoane:</label>
+              <input type="number" id="numar_persoane" name="numar_persoane">
+          
+              <label for="preferinte_cazare">Preferințe de cazare:</label>
+              <select id="preferinte_cazare" name="preferinte_cazare">
+                  <option value="hotel">Hotel</option>
+                  <option value="pensiune">Pensiune</option>
+                  <option value="apartament">Apartament</option>
+              </select>
+          
               <label for="data">Data:</label>
               <input type="date" id="data" name="data">
+          
               <button type="submit">Caută</button>
-            </form>
+          </form>
             <p>Nu numai că vă oferim posibilitatea de a vă planifica următoarea călătorie, dar suntem aici și pentru a vă oferi cele mai bune sfaturi și trucuri pentru a vă bucura la maximum de călătorie. De la sfaturi de economisire la oferte exclusive, suntem mereu în căutarea celor mai bune oferte și experiențe pentru clienții noștri. De asemenea, oferim informații utile și detaliate despre destinații, inclusiv cele mai bune locuri de vizitat, mâncare locală și evenimente culturale, astfel încât să puteți experimenta cu adevărat cultura și frumusețea destinației dumneavoastră. Cu site-ul nostru de călătorii, aventura dumneavoastră începe aici!</p>
             <div class="container">
                 <div class="left-section">
@@ -82,13 +100,16 @@
               <li><a href="#">Cele mai bune locuri de vizitat în Europa</a></li>
               <li><a href="#">Cele mai bune activități de făcut în timpul unei vacanțe la plajă</a></li>
             </ul>
+            <button onclick="schimbaCuloareFundal()">Schimba culoarea de fundal</button>
+
+
             
           </main>
-
+          
           <footer>
             <p><b>Email:</b> contact@desagacuaventuri.ro </p><br><br>
             <p><b>Tel:</b> 0789654321</p><br>
         </footer>
-
+        <script src="script.js"></script>
     </body>
 </html>
